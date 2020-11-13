@@ -1,0 +1,22 @@
+/* Controls the entire group of lists as a whole */
+.lists{
+    display:flex;
+    margin: 5px 0px;
+}
+
+/* Controls the 3 main list blocks individually (Cities/Landmarks/Famous Citizens) */
+.cities, .landmarks, .citizens{
+    margin: 5px;
+    padding: 5px;
+    border: solid black 2px;
+    max-width: 180px;
+    text-align: center;
+    /* Force each List to expand and shrink at the same rate */
+    flex:1;
+}
+
+/* Controls the <h3> element at the top of each list (Cities/Landmarks/Famous Citizens) */
+.list-header{
+    margin: 2px;
+    padding: 0px;
+}
