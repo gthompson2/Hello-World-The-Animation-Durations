@@ -20,3 +20,23 @@
     margin: 2px;
     padding: 0px;
 }
+
+.country_images {
+    max-width: 20em;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .country {
+    justify-content: space-between;
+    margin: 10px;
+} */
+
+.country_name h1{
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
