@@ -1,6 +1,7 @@
 /* Controls the entire group of lists as a whole */
 .lists{
     display:flex;
+    justify-content: space-around;
     margin: 5px 0px;
 }
 
@@ -30,13 +31,37 @@
     text-align: center;
 }
 
-/* .country {
-    justify-content: space-between;
-    margin: 10px;
-} */
+.country {
+    display: flex;
+    flex-direction: column-reverse;
+} 
 
 .country_name h1{
     margin: auto;
     margin-top: 5px;
     text-align: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.header-container {
+    display: flex;
+
+}
+
+.header-container h1 {
+    margin-top: 95px;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
