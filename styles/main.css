@@ -1,3 +1,6 @@
+@import 'info_styling.css';
+@import 'image_styling.css';
+
 /* Controls the entire group of lists as a whole */
 .lists{
     display:flex;
@@ -23,8 +26,8 @@
 }
 
 .country_images {
-    max-width: 20em;
-    height: auto;
+    width: 100%;
+    max-height: 20em;
     margin: auto;
     display: flex;
     justify-content: center;

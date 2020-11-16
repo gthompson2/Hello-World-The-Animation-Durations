@@ -1,0 +1,6 @@
+.city, .landmark, .citizen {
+    margin-bottom: 4px;
+}
+.list-header {
+    border-bottom: 1px dashed black;
+}
