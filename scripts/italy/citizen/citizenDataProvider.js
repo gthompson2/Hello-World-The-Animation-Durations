@@ -15,4 +15,5 @@ const citizenCollection = [
 //this function will export a copy of citizenCollection array
 export const copyOfCitizenCollection = () => {
     return citizenCollection.slice()
+
 }

@@ -5,12 +5,16 @@ import {copyOfCitizenCollection} from "./citizenDataProvider.js"
 
 
 export const citizenList = () => {
-    
-    const contentElement = document.querySelector(".famousCitizens")
 
-    let citizenHTMLRepresentation = ""
+    const copiedCitizens = copyOfCitizenCollection()
 
-    for (const citizen of copyOfCitizenCollection) {
-        citizenHTMLRepresentation += Citizen(citizen)
+    let contentElement = document.querySelector(".famousCitizens")
+
+
+    for (const citizen of copiedCitizens) {
+        const citizenHTMLRepresentation = Citizen(citizen)
+        contentElement.innerHTML += citizenHTMLRepresentation
     }
 }
+
+
