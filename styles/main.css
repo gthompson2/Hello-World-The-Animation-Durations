@@ -1,5 +1,5 @@
 @import 'info_styling.css';
-@import 'image_styling.css';
+
 /* Setting everything to this font */
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -89,3 +89,4 @@ a:link, :visited{
     margin-top: 95px;
     margin-left: 25px;
 }
+
