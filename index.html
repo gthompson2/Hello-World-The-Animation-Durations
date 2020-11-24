@@ -3,70 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Animation Duration Travel Brochure</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div>
-                <img class="logo" src="./images/logo.png" alt="stary hotel">
-            </div>
-            <div>
-                <h1>The Animation Durations</h1>
-            </div>
-        </div>
-        
-        <nav class="navbar">
-            <div class="page current-page"><a href="./index.html">Japan</a></div>
-            <div class="page"><a href="./england.html">England</a></div>
-            <div class="page"><a href="./italy.html">Italy</a></div>
-            <div class="page"><a href="./spain.html">Spain</a></div>
-            <div class="page"><a href="./thailand.html">Thailand</a></div>
-        </nav>
+    <header class="landingHeader">
+        <h1>The Animation Durations</h1>
     </header>
-    <main class="content">
-        <article class="country">
-            <img class = "country_images" src="/images/Japan.jpg" alt="image">
-            <div class = "country_name"><h1>Japan</h1></div>
-
-        </article>
-
-        <!-- This article holds three separate lists (Cities, Landmarks & Famous Citizens) -->
-        <article class="lists">
-
-            <!-- List of cities in related country -->
-            <section class="cities">
-                <!-- Cities Header -->
-                <div>
-                    <h3 class="list-header">Cities</h3>
-                </div>
-                <!-- Cities will be inserted here by JS automatically -->
-            </section>
-
-            <!-- List of landmarks in related country -->
-            <section class="landmarks">
-                <!-- Landmarks Header -->
-                <div>
-                    <h3 class="list-header">Landmarks</h3>
-                </div>
-                <!-- Landmarks will be inserted here by JS automatically -->
-            </section>
-
-            <!-- List of famous citizens in related country -->
-            <section class="citizens">
-                <!-- Famous Citizens Header -->
-                <div>
-                    <h3 class="list-header">Famous Citizens</h3>
-                </div>
-                <!-- Famous citizens will be inserted here by JS automatically -->
-            </section>
-        </article>
-
+    <main>
+        <nav class="navContainer">
+            <div class="navFlag"><a href="./japan.html"><img src="./images/flags/japanFlag.png" class="navFlag__img" alt="Japan Flag"></a></div>
+            <div class="navFlag"><a href="./england.html"><img src="./images/flags/englandFlag.png" class="navFlag__img" alt="England Flag"></a></div>
+            <div class="navFlag"><a href="./italy.html"><img src="./images/flags/italyFlag.png" class="navFlag__img" alt="Italy Flag"></a></div>
+            <div class="navFlag"><a href="./spain.html"><img src="./images/flags/spainFlag.png" class="navFlag__img" alt="Spain Flag"></a></div>
+            <div class="navFlag"><a href="./thailand.html"><img src="./images/flags/thailandFlag.png" class="navFlag__img" alt="Thailand Flag"></a></div>
+        </nav>
     </main>
     <footer class="copyright">
         <h6>2020 The Animation Durations, Inc. All rights reserved &#169</h6>
     </footer>
-    <script src="./scripts/japan/main.js" type="module"></script>
 </body>
+<script type="module" src="./scripts/main.js"></script>
 </html>

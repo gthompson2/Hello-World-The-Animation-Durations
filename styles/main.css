@@ -5,6 +5,28 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.landingHeader{
+    text-align: center;
+}
+
+.navContainer{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(63, 62, 62, 0.541);
+    padding: 5px;
+}
+
+.navFlag{
+    margin: 15px;
+}
+
+.navFlag__img{
+    width: 160px;
+    height: 96px;
+    border-radius: 5px;
+}
+
 /* Controls the entire group of lists as a whole */
 .lists{
     display:flex;
