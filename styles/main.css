@@ -43,7 +43,7 @@ a:link, :visited{
 }
 
 .current-page{
-    border: solid black 1px;
+    border-bottom: dashed #3445C2 2px;
 }
 
 .country_images {
